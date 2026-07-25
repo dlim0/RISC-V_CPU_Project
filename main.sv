@@ -9,6 +9,11 @@
 module main ();
 endmodule : main
 
+    //This portion of the code is dedicated to the Register File
+module registerfile ();
+
+endmodule : registerfile    
+    //end of regfile
     //This portion of the code is dedicated to the ALU (Artihmetic Logic Unit)
 module ALU (
     input logic [31:0] src1, src2, //32 bit inputs
@@ -31,3 +36,4 @@ module ALU (
         zero = ~(|out); //sets the zero flag by using a reducing or to see if ANY bits from out is nonzero (if any are  zero wont flag)
     end
 endmodule : ALU
+    //end of ALU
