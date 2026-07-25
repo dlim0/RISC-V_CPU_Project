@@ -4,6 +4,6 @@
 //
 // Created : 24. Jul 2026 11:13 PM
 //-------------------------------------------------------------------
-module main ();
+module main (input in, output out);
 
 endmodule : main
